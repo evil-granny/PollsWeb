@@ -1,4 +1,4 @@
-### Pools client's side
+### Pools (client side)
 ## Steps to Setup the PollsWeb
 
 First go to the `polling-app-client` folder -
