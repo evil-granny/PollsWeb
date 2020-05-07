@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="628cd3f8-30ef-4b05-afb8-43951684087c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/index.js" afterDir="false" />
+    <list default="true" id="628cd3f8-30ef-4b05-afb8-43951684087c" name="Default Changelist" comment="Updated readme">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poll/NewPoll.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poll/NewPoll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poll/Poll.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poll/Poll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poll/PollList.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poll/PollList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/profile/Profile.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +22,11 @@
     <option name="done" value="true" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -36,6 +49,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -52,7 +66,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588858471536</updated>
-      <workItem from="1588858473104" duration="833000" />
+      <workItem from="1588858473104" duration="1054000" />
+      <workItem from="1588880819782" duration="739000" />
     </task>
     <task id="LOCAL-00001" summary="Added all files for client's side">
       <created>1588858579249</created>
@@ -68,7 +83,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588858617090</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added readme and license">
+      <created>1588859337368</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588859337368</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated readme">
+      <created>1588859527784</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588859527784</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,13 +106,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added all files for client's side" />
     <MESSAGE value="Added two files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added two files" />
+    <MESSAGE value="Added readme and license" />
+    <MESSAGE value="Updated readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated readme" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="385" y="0" key="CommitChangelistDialog2" timestamp="1588858616300">
+    <state x="385" y="0" key="CommitChangelistDialog2" timestamp="1588880866816">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="385" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588858616300" />
+    <state x="385" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588880866816" />
+    <state x="144" y="65" width="1228" height="687" key="DiffContextDialog" timestamp="1588881558821">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="144" y="65" width="1228" height="687" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1588881558821" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1588858721696">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -92,9 +127,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="626" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1588858655493" />
-    <state x="478" y="145" width="579" height="534" key="find.popup" timestamp="1588859095143">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1588859531416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="478" y="145" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1588859095143" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588859531416" />
+    <state x="478" y="145" width="579" height="534" key="find.popup" timestamp="1588881347191">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="145" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1588881347191" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1588880896032">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1588880896032" />
   </component>
 </project>

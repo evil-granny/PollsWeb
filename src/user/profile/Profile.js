@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
-import PollList from '../../poll/PollList';
 import { getUserProfile } from '../../util/APIUtils';
-import { Avatar, Tabs } from 'antd';
+import { Avatar } from 'antd';
 import { getAvatarColor } from '../../util/Colors';
 import { formatDate } from '../../util/Helpers';
 import LoadingIndicator  from '../../common/LoadingIndicator';
 import './Profile.css';
 import NotFound from '../../common/NotFound';
 import ServerError from '../../common/ServerError';
-
-const TabPane = Tabs.TabPane;
 
 class Profile extends Component {
     constructor(props) {
@@ -71,10 +68,6 @@ class Profile extends Component {
             return <ServerError />;
         }
 
-        const tabBarStyle = {
-            textAlign: 'center'
-        };
-
         return (
             <div className="profile">
                 { 
@@ -94,20 +87,7 @@ class Profile extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="user-poll-details">    
-                                <Tabs defaultActiveKey="1" 
-                                    animated={false}
-                                    tabBarStyle={tabBarStyle}
-                                    size="large"
-                                    className="profile-tabs">
-                                    <TabPane tab={`${this.state.user.pollCount} Polls`} key="1">
-                                        <PollList username={this.props.match.params.username} type="USER_CREATED_POLLS" />
-                                    </TabPane>
-                                    <TabPane tab={`${this.state.user.voteCount} Votes`}  key="2">
-                                        <PollList username={this.props.match.params.username} type="USER_VOTED_POLLS" />
-                                    </TabPane>
-                                </Tabs>
-                            </div>  
+
                         </div>  
                     ): null               
                 }
